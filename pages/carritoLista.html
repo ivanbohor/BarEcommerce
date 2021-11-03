@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#bla" />
+  <title>Proyecto Bar español</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/1a3988a624.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/estilos.css" />
+</head>
+<body>
+  <header class="container-fluid bg-dark position-sticky top-0 ">
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark row ">
+      <a class="navbar-brand  col-sm-6  col-lg-4" href="../index.html">
+        <img src="../img/bar (4).svg" alt="logo" width="260" height="60" />
+      </a>
+      <ul class="navbar-nav justify-content-left text-primary col-sm-6  col-lg-6">
+        <li class="nav-item">
+          <a class="nav-link " href="/index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="carritoLista.html">Carrito</a>
+        </li>
+        <div class="redes">
+          <i class="fab fa-facebook icoSoc"></i> 
+          <i class="fab fa-instagram icoSoc"></i>
+          <i class="fab fa-twitter-square icoSoc"></i>
+        </div>
+      </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="ContainerShop">
+    <h2 class="text-center text-white m-3">Tu carrito de Compras</h2>
+    <div class="container-fluid ">
+      <div class="row m-1 text-white " id="CuerpoCarrito">
+        <div class="row border-bottom" id="carritoContenedor">
+          <!-- se genera los productos items dinamicamente -->
+        </div>
+      </div>
+      <div>
+        <p class="precioProducto text-white text-center m-2">Precio total: $<span id="precioTotal"></span></p>
+      </div>
+      <div class="col text-center m-4">
+        <a href="#conContact" class="btn btn-primary m-2" id="confirBtn">Confirmar Pedido </a>
+      </div>
+      <div class="container contacto " id="conContact">
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3">
+            <div class="well p-2 m-3">
+              <form action="#">
+                <h4 class="text-center m-2"> Quiero que me lo envien a : </h4>
+                <div class="form-group ">
+                  <label for="user_direction">Direccion:</label>
+                  <input type="text" id="user_direction" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="user_email">Nombre:</label>
+                  <input type="text" id="user_name" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="user_phone">Telefono:</label>
+                  <input type="text" id="user_phone" class="form-control" />
+                </div>
+                <div class="col text-center">
+                  <a href="#tarjeta" class="btn btn-primary m-2" id="btnPay"> Ir a Pagar </a>
+                  <br>
+                  <i class="fas fa-credit-card"></i>
+                  <i class="fab fa-cc-mastercard"></i>
+                  <i class="fab fa-cc-visa"></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TARJETA PAGO -->
+    <div id="contenedorPay">
+      <div class="contenedor">
+        <!-- Tarjeta -->
+      </div>
+    </div>
+  </main>
+  <footer class="bg-dark fixed-bottom p-1 ">
+    <p class="text-center text-muted m-1">By Ivan Olivera
+      <a href="https://github.com/ivanbohor" target="_blank"><i  class="fab fa-github icoSoc text-align-center m-1"></i></a>
+    </p>
+  </footer> 
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="../js/carrito.js"></script>
+  <script src="../js/pay.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tallarines ",
+        "descripcion": "Breve descripcion del plato e ingredientes. Pastas ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Milanesas",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Postres",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Carne al horno",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Costillitas ",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Sandwich ",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Ensalada ",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Salsa ",
+        "descripcion": "Breve descripcion del plato e ingredientes. Lorem ipsum",
+        "precio": 500,
+        "img": "../img/bif-unsplash.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Bife",
+        "descripcion": "Breve descripcion del plato.Lorem ipsum",
+        "precio": 600,
+        "img": "../img/meat-gecd6d0492_640.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Pollo ",
+        "descripcion": "Breve descripcion del plato.Lorem ipsum",
+        "precio": 600,
+        "img": "../img/meat-gecd6d0492_640.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Pastas",
+        "descripcion": "Breve descripcion del plato.Lorem ipsum",
+        "precio": 600,
+        "img": "../img/meat-gecd6d0492_640.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Postres",
+        "descripcion": "Breve descripcion del plato.Lorem ipsum",
+        "precio": 600,
+        "img": "../img/meat-gecd6d0492_640.jpg",
+        "cantidad": 1
+    }
+]

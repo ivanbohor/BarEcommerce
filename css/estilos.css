@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Urbanist:wght@200&display=swap");
+
+body {
+  background-color: #2c2d34;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER NAV */
+nav ul li a {
+  color: azure !important;
+  font-size: 2vh;
+}
+
+.nav-link {
+  margin-left: 2rem;
+}
+.nav-link.active,
+.show > .nav-link {
+  background-color: #e94800 !important;
+  padding: 0.5rem;
+}
+nav a img {
+  margin-left: 5rem;
+}
+
+.btnBuscador {
+  width: 5%;
+  height: 2.5rem;
+}
+
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+  width: 9rem;
+  padding-right: 0.5rem;
+}
+
+.input-group {
+  flex-wrap: nowrap;
+}
+
+.form-control {
+  background-color: #212529;
+}
+
+.filter {
+  display: none;
+}
+
+/* INICIO */
+.logo-brand h1 {
+  font-size: 16vh;
+  font-family: "Caveat";
+}
+
+.logo-brand h3 {
+  font-size: 6vh;
+  font-family: "Caveat";
+  padding-top: 0rem;
+}
+
+.logo-brand a {
+  width: 15rem;
+  padding: 1rem;
+}
+
+.redes {
+  position: relative;
+  left: 25rem;
+}
+.icoSoc {
+  color: azure;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* CONTACTO */
+.contacto h2 {
+  margin-bottom: 40px;
+}
+
+.contacto h2,
+label {
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.btn-default {
+  font-weight: 400;
+}
+
+form > h2 {
+  text-align: center;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.well {
+  border: 20px solid hsla(0, 0%, 100%, 0.2);
+  background: hsla(0, 0%, 100%, 0.5);
+  background-clip: padding-box;
+  border-radius: 45px;
+  margin-top: 45px;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.form-control {
+  color: black;
+}
+
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+  color: black;
+}
+
+textarea:active,
+textarea:focus,
+textarea:hover {
+  background-color: transparent !important;
+}
+
+.btn-default {
+  border-radius: 45px;
+  background: transparent;
+  border: none;
+}
+
+.btn-default:hover {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+/* botones */
+.btn-primary {
+  color: #fff;
+  background-color: #efd510;
+  border-color: #efd510;
+}
+
+.btn-primary:hover {
+  background-color: #efd510;
+  border-color: #efd510;
+  transform: scale(1.05);
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #f2910a;
+  border-color: white;
+}
+
+/* Seccion PRODUCTOS */
+h5 {
+  color: azure;
+}
+
+#marketProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.productoEnCarrito {
+  margin-bottom: 1.5rem;
+}
+
+.boton-eliminar {
+  background: #e32636;
+  border-style: unset;
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.1) !important;
+}
+
+#conContact {
+  display: none;
+}
+
+.precioProducto {
+  font-size: 1.2rem;
+}
+.m-2 {
+  margin: 2.5rem !important;
+}
+
+/* modal de agregado */
+.swal-text {
+  color: black;
+}
+
+.swal-button {
+  background-color: #efd510;
+}
+
+/* modal TARJETA CARD */
+#contenedorPay {
+  display: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 500px;
+  padding: 0px 20px 53px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ---------- Estilos Generales de las Tarjetas ----------*/
+.tarjeta {
+  width: 100%;
+  max-width: 550px;
+  position: relative;
+  color: #fff;
+  transition: 0.3s ease all;
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.tarjeta.active {
+  transform: rotateY(180deg);
+}
+
+.tarjeta > div {
+  padding: 30px;
+  border-radius: 15px;
+  min-height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
+}
+
+/* ---------- Tarjeta Delantera ----------*/
+
+.tarjeta .delantera {
+  width: 100%;
+  background: goldenrod;
+  background-size: cover;
+}
+
+.delantera .logo-marca {
+  text-align: right;
+  min-height: 50px;
+}
+
+.delantera .logo-marca img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 80px;
+}
+
+.delantera .chip {
+  width: 100%;
+  max-width: 50px;
+  margin-bottom: 20px;
+}
+
+.delantera .grupo .label {
+  font-size: 16px;
+  color: #7d8994;
+  margin-bottom: 5px;
+}
+
+.delantera .grupo .numero,
+.delantera .grupo .nombre,
+.delantera .grupo .expiracion {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.delantera .flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* ---------- Tarjeta Trasera ----------*/
+.trasera {
+  background: royalblue;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.trasera .barra-magnetica {
+  height: 40px;
+  background: #000;
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.trasera .datos {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trasera .datos p {
+  margin-bottom: 5px;
+}
+
+.trasera .datos #ccv {
+  width: 20%;
+}
+
+.trasera .datos #ccv .ccv {
+  background: #fff;
+  height: 40px;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.trasera .leyenda {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.trasera .link-banco {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* ---------- Contenedor Boton ----------*/
+.contenedor-btn .btn-abrir-formulario {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 20px;
+  background: #efd510;
+  color: #fff;
+  position: relative;
+  top: -25px;
+  z-index: 3;
+  border-radius: 100%;
+  box-shadow: -5px 4px 8px rgba(24, 56, 182, 0.4);
+  padding: 5px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.contenedor-btn .btn-abrir-formulario:hover {
+  background: #e94800;
+}
+
+.contenedor-btn .btn-abrir-formulario.active {
+  transform: rotate(45deg);
+}
+
+/* ---------- Formulario Tarjeta ----------*/
+.formulario-tarjeta {
+  background: #fff;
+  width: 100%;
+  max-width: 700px;
+  padding: 150px 30px 30px 30px;
+  border-radius: 10px;
+  position: relative;
+  top: -150px;
+  z-index: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: clip-path 0.3s ease-out;
+}
+
+.formulario-tarjeta.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.formulario-tarjeta label {
+  display: block;
+  color: #7d8994;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.formulario-tarjeta input,
+.formulario-tarjeta select,
+.btn-enviar {
+  border: 2px solid #ced6e0;
+  font-size: 14px;
+  height: 50px;
+  width: 100%;
+  padding: 5px 12px;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+}
+
+.formulario-tarjeta input:hover,
+.formulario-tarjeta select:hover {
+  border: 2px solid #93bded;
+}
+
+.formulario-tarjeta input:focus,
+.formulario-tarjeta select:focus {
+  outline: rgb(4, 4, 4);
+  box-shadow: 1px 7px 10px -5px rgba(90, 116, 148, 0.3);
+}
+
+.formulario-tarjeta input {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.formulario-tarjeta .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario-tarjeta .expira {
+  width: 100%;
+}
+
+.formulario-tarjeta .ccv {
+  min-width: 100px;
+}
+
+.formulario-tarjeta .grupo-select {
+  width: 100%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.formulario-tarjeta select {
+  -webkit-appearance: none;
+}
+
+.formulario-tarjeta .grupo-select i {
+  position: absolute;
+  color: #ced6e0;
+  top: 18px;
+  right: 15px;
+  transition: 0.3s ease all;
+}
+
+.formulario-tarjeta .grupo-select:hover i {
+  color: #93bfed;
+}
+
+.formulario-tarjeta .btn-enviar {
+  border: none;
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  background: #efd510;
+  box-shadow: 2px 2px 10px 0px rgba(0, 85, 212, 0.4);
+  cursor: pointer;
+}
+
+.formulario-tarjeta .btn-enviar:hover {
+  background: #1850b1;
+}
+
+footer {
+  bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: inherit;
+    margin-left: -1rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 3.5rem;
+  }
+
+  .navbar-brand {
+    padding-left: 6rem;
+  }
+
+  nav a img {
+    margin-left: -1.5rem;
+  }
+
+  .btnBuscador {
+    width: 15%;
+    height: 2.5rem;
+  }
+
+  .redes {
+    position: relative;
+    left: 1.5rem;
+    bottom: 3rem;
+  }
+}
