@@ -66,6 +66,7 @@ nav a img {
 .redes {
   position: relative;
   left: 25rem;
+  font-size: 1.5rem;
 }
 .icoSoc {
   color: azure;
@@ -513,5 +514,6 @@ footer {
     position: relative;
     left: 1.5rem;
     bottom: 3rem;
+    font-size: 1rem;
   }
 }
